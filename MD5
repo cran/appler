@@ -1,6 +1,6 @@
-827826a0b64caaa16b27830b15df1fd3 *DESCRIPTION
+03fb50dc28d28b8630882080078da635 *DESCRIPTION
 3fb9040e3f558b5eb45c7bb392c72721 *NAMESPACE
-d608a256f285dbbd95a61eeca1721d21 *NEWS.md
+c6837ca78f2712b02792a73b6cc75295 *NEWS.md
 bf5a36bcdfe447aa18c1cbea60fe8bfa *R/data.R
 6ab2bc121a7249d0def906337d8eb45d *R/info.R
 29a1572fae00de3d27e52baca954b096 *R/ratings.R
@@ -14,8 +14,8 @@ b53f87fd1c2963b6571c50decb117a4b *man/get_apple_reviews.Rd
 bb1d7ad5f3534741ffbd9f567f072eac *man/lookup_apple.Rd
 a65cfd0709f86837719d2f523563397c *man/search_apple.Rd
 be80a644e58e554354e4e2768a307ce2 *tests/testthat.R
-199ac9f843ed591c666302f5e7505afe *tests/testthat/test-chart.R
-692dfea0ea58a4c1de94df2711f66b39 *tests/testthat/test-lookup.R
-2b36b05db20c7ee949430224d863ec61 *tests/testthat/test-rating.R
-4ced54d766f06161cbc6e857f6aeeaca *tests/testthat/test-review.R
-e9f183ebf6e59d791d85bf5669a0ac06 *tests/testthat/test-search.R
+58667aeff23523c92c0ccf61bc8bd070 *tests/testthat/test-chart.R
+a83a40b250fa502f510ae2e1cf8ac715 *tests/testthat/test-lookup.R
+397305bac6d5224c761b938d486e324b *tests/testthat/test-rating.R
+fe155d2132c3e77c24524bfe4ac225f9 *tests/testthat/test-review.R
+d6e21045e2c3fe759ff3f0e8fb7c953c *tests/testthat/test-search.R

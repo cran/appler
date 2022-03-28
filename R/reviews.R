@@ -17,7 +17,7 @@
 #' @details
 #' There is a maximum of 500 reviews that can be pulled.
 #'
-#' @examples
+#' @examplesIf interactive()
 #' # Look up reviews for Apollo in the UK
 #' get_apple_reviews(979274575, "gb")
 #'

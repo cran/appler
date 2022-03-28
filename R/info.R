@@ -25,7 +25,7 @@
 #'
 #' If there were no successful results then it will return \code{NULL}.
 #'
-#' @examples
+#' @examplesIf interactive()
 #' # Search for all Jack Johnson audio and video content
 #' search_apple(term = "jack johnson")
 #'
@@ -109,7 +109,7 @@ search_apple <- function(term, country = NULL, media = NULL, entity = NULL, attr
 #'
 #' If there were no successful results then it will return \code{NULL}.
 #'
-#' @examples
+#' @examplesIf interactive()
 #' # Look up Jack Johnson by iTunes artist ID
 #' lookup_apple(909253)
 #'

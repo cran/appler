@@ -1,12 +1,12 @@
 ## ----setup, include = FALSE---------------------------------------------------
 options(rmarkdown.html_vignette.check_title = FALSE)
+library(appler)
 
 knitr::opts_chunk$set(
   collapse = TRUE,
-  comment = "#>"
+  comment = "#>",
+  eval = !is.null(curl::nslookup("apps.apple.com", error = FALSE))
 )
-
-library(appler)
 
 ## ---- include = FALSE---------------------------------------------------------
 Sys.sleep(1)

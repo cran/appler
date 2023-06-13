@@ -1,7 +1,7 @@
 Package: appler
 Type: Package
 Title: 'Apple App Store' and 'iTunes' Data Extraction
-Version: 0.2.0
+Version: 0.2.1
 Authors@R: person("Ashley", "Baldry", email = "arbaldry91@gmail.com", role = c("aut", "cre"))
 Description: Using 'Apple App Store' <https://www.apple.com/app-store/> web scraping and 'iTunes' API 
     <https://performance-partners.apple.com/search-api>
@@ -11,7 +11,7 @@ URL: https://ashbaldry.github.io/appler/,
 BugReports: https://github.com/ashbaldry/appler/issues
 Depends: R (>= 2.10)
 Imports: httr, jsonlite, rvest
-Suggests: testthat (>= 3.0.0), knitr, rmarkdown, covr
+Suggests: testthat (>= 3.0.0), curl, covr, knitr, rmarkdown
 License: GPL-2
 Encoding: UTF-8
 RoxygenNote: 7.2.3
@@ -19,8 +19,8 @@ VignetteBuilder: knitr
 LazyData: true
 Language: en-GB
 NeedsCompilation: no
-Packaged: 2023-02-02 19:47:30 UTC; arbal
+Packaged: 2023-06-12 18:59:48 UTC; arbal
 Author: Ashley Baldry [aut, cre]
 Maintainer: Ashley Baldry <arbaldry91@gmail.com>
 Repository: CRAN
-Date/Publication: 2023-02-02 20:00:02 UTC
+Date/Publication: 2023-06-13 07:00:08 UTC
